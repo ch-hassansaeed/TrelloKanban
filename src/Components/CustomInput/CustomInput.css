@@ -1,0 +1,61 @@
+.custom-input {
+  width: 100%;
+}
+
+.custom-input-display {
+  padding: 6px 12px;
+  border-radius: 3px;
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  width: fit-content;
+  transition: 200ms;
+}
+
+.custom-input-display:hover {
+  background-color: #ddd;
+}
+
+.custom-input-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.custom-input-edit input {
+  border: 2px solid #0079bf;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.custom-input-edit-footer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.custom-input-edit-footer button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  background-color: #0079bf;
+  color: #fff;
+  border: none;
+  transition: 100ms ease;
+  padding: 10px;
+}
+.custom-input-edit-footer button:hover {
+  background-color: #046daa;
+}
+
+.custom-input-edit-footer button:active {
+  transform: translateY(2px);
+}
+
+.custom-input-edit-footer .closeIcon {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
